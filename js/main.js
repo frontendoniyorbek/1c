@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		type: 'loop',
 		perPage: 3,
 		perMove: 1,
-		autoplay: false,
+		autoplay: true,
 		interval: 3000, // 3 seconds
 		pauseOnHover: false,
 		breakpoints: {
