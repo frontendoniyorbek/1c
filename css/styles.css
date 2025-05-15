@@ -417,9 +417,6 @@ a {
 	fill: #327f36;
 }
 
-.splide__list {
-}
-
 .splide__slide {
 	box-shadow: 0px 4px 12px 0px #0000000d;
 	background-color: #fff;
@@ -693,6 +690,43 @@ a {
 	.site-header__item:not(:last-child) {
 		margin-right: 1.2rem;
 	}
+
+	.support {
+		padding-top: 6.4rem;
+		padding-bottom: 6.4rem;
+	}
+
+	.support__container {
+		padding: 3rem 3rem;
+	}
+
+	.support__title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+	.support__inner {
+		padding: 2.4rem;
+	}
+
+	.support__inner-title {
+		font-size: 1.6rem;
+	}
+
+	.support__inner-links__left {
+		margin-right: 0.5rem;
+	}
+
+	.support__inner-links__left h5 {
+		margin-bottom: 0.5rem;
+	}
+
+	.support__inner-link {
+		font-size: 1.6rem;
+	}
+
+	.support__inner-link__right h5 {
+		margin-bottom: 0.5rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -823,6 +857,34 @@ a {
 	.product__text {
 		font-size: 1.4rem;
 	}
+
+	.support__container {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.support__info {
+		margin-right: 0;
+		max-width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	.support__inner {
+		padding: 2rem;
+		max-width: 100%;
+	}
+
+	.support__inner-title {
+		font-size: 1.4rem;
+	}
+
+	.support__inner-links__left {
+		margin-right: 0;
+		margin-bottom: 2rem;
+	}
 }
 
 @media screen and (max-width: 520px) {
@@ -832,5 +894,11 @@ a {
 
 	.btn {
 		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.support__inner-links {
+		flex-direction: column;
 	}
 }
