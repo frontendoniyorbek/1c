@@ -569,6 +569,85 @@ a {
 	margin-bottom: 1rem;
 }
 
+.stores {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.stores__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.stores__left {
+	max-width: 636px;
+	width: 100%;
+}
+
+.stores__title {
+	margin-bottom: 4rem;
+	font-weight: 600;
+	font-size: 2.6rem;
+	line-height: 1.4;
+}
+
+.stores__img {
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+}
+
+.stores__right {
+	max-width: 636px;
+	width: 100%;
+}
+
+.stores__list {
+	width: 100%;
+}
+
+.stores__item {
+	background-color: #fff;
+	box-shadow: 0px 4px 12px 0px #0000000d;
+	padding: 4rem;
+	border-radius: 4rem;
+}
+
+.stores__item:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.stores__item-title {
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 1.4;
+	margin-bottom: 2rem;
+}
+
+.stores__item-text {
+	color: #6f7973;
+}
+
+.stores__item-link {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	color: var(--green-color);
+	transition: all 0.4s ease;
+}
+
+.stores__item-link img {
+	margin-left: 0.4rem;
+}
+
+.stores__item-link:hover {
+	color: #327f36;
+}
+
+.stores__item-link:active {
+	opacity: 0.6;
+}
+
 /* MEDIA START */
 @media screen and (max-width: 1120px) {
 	.hero {
